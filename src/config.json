@@ -1,0 +1,11 @@
+{
+  "discordRoles": {
+    "test": {
+      "fivem": ""
+    },
+    "test2": {
+      "fivem2": ""
+    }
+  },
+  "needDiscord": false
+}
