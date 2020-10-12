@@ -8,7 +8,7 @@ This resource offers real time perms using discord roles. It takes a object of r
 
 - Clone or download resource into your `resources` folder
 - Config the config to your liking
-- Add `sDiscord` to your server.cfg
+- Add `sPerms` to your server.cfg
 
 ## Exports
 
