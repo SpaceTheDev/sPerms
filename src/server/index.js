@@ -31,6 +31,12 @@ onNet('sPerms:playerSpawned', () => {
   });
 });
 
+onNet('sPerms:getPerms', (source, cb) => {
+  getPerms(source, perms => {
+    cb(perms);
+  })
+})
+
 onNet('sDiscord:guildMemberUpdate', ({ id }) => {
   playerPerms.forEach((v, k) => {
     const identifiers = getIdentifiers(k);
